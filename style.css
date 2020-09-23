@@ -1,0 +1,67 @@
+body {
+    text-align: center;
+    padding-top: 780px;
+}
+
+#img_tim {
+    border-radius: 80px;
+    margin: 100px;
+    width: auto;
+}
+
+#page1 {
+    background: linear-gradient(#0F9D58 0%, #F4B400 100%);
+    overflow: auto;
+    position: absolute;
+    top: 0;
+    left:0;
+    right:0;
+    bottom:0;
+    display:table;
+    opacity: .90;
+    color: deeppink;
+    margin: auto;
+    width: 100%;
+    z-index: 1;
+}
+
+#autobio {
+    color: blue;
+    margin: auto;
+    padding: inherit;
+}
+
+#div {
+    background-color: blue;
+    width: 200px;
+    height: 20px;
+    margin: auto;
+}
+
+#page2 {
+padding: 70px;
+}
+
+p {
+    font-size: 20px;
+}
+.menu{
+    list-style: none;
+    position: absolute;
+    z-index: 9;
+    top: 10px;
+    right: 30px;
+    left: 0px;
+    cursor:pointer;
+}
+.item{
+    float: left;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    color:floralwhite;
+}
+.item:hover{
+    background-color: dodgerblue;
+}
